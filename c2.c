@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    int number, current, count;
+    int number, count;
     printf("Введите целое число: ");
     scanf("%d", &number);
     count = 0;
