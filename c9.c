@@ -1,5 +1,5 @@
 #include <stdio.h>
-void temperatures(double x);
+void temperatures(double far);
 int main(void){
     double user;
     printf("Введите температуру в фаренгейтах(или q для выхода): ");

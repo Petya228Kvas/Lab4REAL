@@ -1,15 +1,15 @@
 #include <stdio.h>
-#define FOOT 30.48
 #define INCH 2.54
 int main(void){
-    float user, inch;
+    float user, inch, inch_yes;
     int foot;
     printf("Введите высоту в сантиметрах: ");
     scanf("%f", &user);
     while(user > 0){
         inch = user / INCH;
-        foot = user / FOOT;
-        printf("%.1f см = %d футов, %.1f дюймов\n", user, foot, inch);
+        foot = inch / 12;
+        inch_yes= inch - foot*12;
+        printf("%.1f см = %d футов, %.1f дюймов\n", user, foot, inch_yes);
         printf("Введите высоту в сантиметрах: ");
         scanf("%f", &user);
 

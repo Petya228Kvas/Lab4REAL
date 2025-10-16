@@ -13,7 +13,7 @@ int main(void){
         printf("Введите следующее число для первого операда(<= 0 выход): ");
         scanf("%d", &user1);
         printf("%d %% %d равно %d\n", user1, user2, user1 % user2);
-
+        printf("!END!\n");
     }
 
     return 0;
